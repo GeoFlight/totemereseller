@@ -1,0 +1,22 @@
+.gradle/
+build/
+run/
+*.iml
+.idea/
+
+# Local credentials and environment overrides
+**/config/totemreseller/api-key.txt
+api-key.txt
+.env
+.env.*
+!.env.example
+gradle.properties.local
+
+# IDE and operating-system files
+.vscode/
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
+desktop.ini

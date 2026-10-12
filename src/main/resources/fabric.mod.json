@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "totemreseller",
+  "version": "${version}",
+  "name": "Totem Reseller",
+  "description": "Tracks DonutSMP totem auctions and automates qualifying purchases and relisting.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.totemreseller.TotemResellerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
