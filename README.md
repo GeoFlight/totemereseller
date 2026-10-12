@@ -35,4 +35,4 @@ The repository intentionally excludes generated build output, local IDE files, `
 
 GitHub Actions runs the tests and build on pushes and pull requests. To build locally on Windows, use `.\gradlew.bat test build`.
 
-No project license is included yet. Choose and add a license before describing the project as open source or granting others permission to reuse it.
+The repository includes an MIT license in `LICENSE`. Review it to make sure it matches how you want others to use the project.
